@@ -1,0 +1,85 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+background-color: #e3ccb5;
+color: #4d3319;
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+}
+
+/* ///////////////
+   LAYOUT   
+   /////////////// */
+
+   img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+
+
+.card-container {
+    background-color: #ead9c8;
+    width: 30%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    border-radius: 0.75em;
+}
+
+.link-container {
+    background-color: #F1E6DA;
+    width: 100%;
+    margin: 0.5em auto;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+/* ///////////////
+   STYLING  
+   /////////////// */
+
+h1 {
+    margin-bottom: 0.2em;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #604020;
+}
+
+.link-container:hover {
+    background-color:  #e4cdb4;
+    color: #604020;
+}
+
+/* ///////////////
+   MOBILE  
+   /////////////// */
+
+   @media (min-width: 360px) and (max-width: 675px){
+    .card-container {
+        width: 90%;
+    }
+
+p {
+    text-align: center;
+}
+   }
